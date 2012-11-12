@@ -1,5 +1,3 @@
-.git
-.gitignore
 lib/Mojolicious/Plugin/Libravatar.pm
 Makefile
 Makefile.PL
