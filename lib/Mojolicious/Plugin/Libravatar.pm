@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::Libravatar;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 
 use Libravatar::URL;
 use Mojo::Cache;
@@ -95,7 +95,7 @@ Register plugin in L<Mojolicious> application.
 
 L<Mojolicious::Plugin::Libravatar> accepts the same options as
 L<Libravatar::URL>, including C<size>, C<https>, C<base>, and C<short_keys>.
-However, one additional parameter has been added:
+In addition, L<Mojolicious::Plugin::Libravatar> accepts the following:
 
 =head2 mojo_cache
 
