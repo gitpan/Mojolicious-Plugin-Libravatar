@@ -32,7 +32,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Libravatar::URL" : "0",
+            "Libravatar::URL" : "1.06",
             "Mojolicious" : "3.50",
             "Test::Exception" : "0",
             "Test::Routine" : "0"
@@ -40,5 +40,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "1.06"
+   "version" : "1.07"
 }

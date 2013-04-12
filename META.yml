@@ -18,8 +18,8 @@ no_index:
     - t
     - inc
 requires:
-  Libravatar::URL: 0
+  Libravatar::URL: 1.06
   Mojolicious: 3.50
   Test::Exception: 0
   Test::Routine: 0
-version: 1.06
+version: 1.07
