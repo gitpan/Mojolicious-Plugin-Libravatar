@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921'
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,8 +18,9 @@ no_index:
     - t
     - inc
 requires:
-  Libravatar::URL: 1.06
-  Mojolicious: 3.50
+  Gravatar::URL: 0
+  Libravatar::URL: 0
+  Mojolicious: 0
   Test::Exception: 0
   Test::Routine: 0
-version: 1.08
+version: 1.09
